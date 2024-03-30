@@ -1,0 +1,66 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :)",
+        "Hello, thanks for visiting!",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "diet",
+      "patterns": ["Can you recommend me a diet list", "Give me a diet list", "Recommend me something"],
+      "responses": ["Sure! Type your age, weight and height information please\nExample:21 75 180"]
+    },
+    {
+      "tag": "introduction/help",
+      "patterns": ["HELP"],
+      "responses": [
+        "Welcome! I am DietBOT. I can recommend you about your daily diet. Please type 'Recommend'."
+      ]
+    },
+    {
+      "tag": "nutrition",
+      "patterns": [
+        "amount of daily calories",
+        "daily nutrition",
+        "FSA lights",
+        "daily calories",
+        "amount of nutrition",
+        "fitness plan",
+        "diet plan",
+        "workout",
+        "calories",
+        "nutrition",
+        "exercise"
+      ],
+      "responses": [
+        "A person needs around 2,0000 calories per day but that ranges based on age, sex, and weight. Additionally, a person should intake daily fats, sodium, saturates, and sugar a person which is 44-77 g, 2.3 g, 16-22 g, and 50 g respectively. FSA Lights can health understand these nutritional values as each value is assigned with a color depending on how healthy the food is. A person should also be exercising for 30 minutes to an hour per day.I cannot give you any exercise plan but in future I will!"
+      ]
+    }
+  ]
+}
